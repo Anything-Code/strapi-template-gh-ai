@@ -1,0 +1,9 @@
+{
+  "name": "strapi-template-gh-ai",
+  "version": "1.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:Anything-Code/strapi-template-gh-ai.git",
+  "author": "Niklas Lübcke",
+  "license": "MIT",
+  "private": false
+}
