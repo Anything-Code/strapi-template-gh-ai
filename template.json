@@ -6,7 +6,8 @@
             "@strapi/plugin-users-permissions": "4.3.6",
             "@strapi/strapi": "4.3.6",
             "better-sqlite3": "7.4.6",
-            "strapi-plugin-navigation": "^2.2.1"
+            "strapi-plugin-navigation": "^2.2.1",
+            "strapi-plugin-publisher": "^1.1.3"
         }
     }
 }

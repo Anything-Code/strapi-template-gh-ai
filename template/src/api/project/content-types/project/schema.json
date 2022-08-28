@@ -26,9 +26,6 @@
     "title": {
       "type": "string"
     },
-    "content": {
-      "type": "richtext"
-    },
     "location": {
       "type": "string"
     },
@@ -52,6 +49,12 @@
       "relation": "manyToMany",
       "target": "api::category.category",
       "inversedBy": "projects"
+    },
+    "site": {
+      "type": "dynamiczone",
+      "components": [
+        "site.awdawdawd"
+      ]
     }
   }
 }

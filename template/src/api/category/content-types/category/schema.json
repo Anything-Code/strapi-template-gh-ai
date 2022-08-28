@@ -26,14 +26,17 @@
         "audios"
       ]
     },
-    "content": {
-      "type": "richtext"
-    },
     "projects": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::project.project",
-      "inversedBy": "categories"
+      "mappedBy": "categories"
+    },
+    "site": {
+      "type": "dynamiczone",
+      "components": [
+        "site.awdawdawd"
+      ]
     }
   }
 }

@@ -15,9 +15,6 @@
     "title": {
       "type": "string"
     },
-    "content": {
-      "type": "richtext"
-    },
     "images": {
       "type": "media",
       "multiple": true,
@@ -27,6 +24,12 @@
         "files",
         "videos",
         "audios"
+      ]
+    },
+    "site": {
+      "type": "dynamiczone",
+      "components": [
+        "site.awdawdawd"
       ]
     }
   }
