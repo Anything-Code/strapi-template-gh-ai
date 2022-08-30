@@ -15,7 +15,7 @@
     "title": {
       "type": "string"
     },
-    "images": {
+    "header": {
       "type": "media",
       "multiple": true,
       "required": false,
@@ -29,7 +29,8 @@
     "site": {
       "type": "dynamiczone",
       "components": [
-        "site.awdawdawd"
+        "site.awdawdawd",
+        "site.media"
       ]
     }
   }
