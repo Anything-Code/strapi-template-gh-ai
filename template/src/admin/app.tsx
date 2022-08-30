@@ -28,6 +28,28 @@ export default {
       // 'zh-Hans',
       // 'zh',
     ],
+    translations: {
+      de: {
+        // 'Auth.form.email.label': 'test',
+        title: 'Titel',
+        header: 'Medien (Oben)',
+        content: 'Inhalt',
+        projects: 'Projekte',
+        client: 'Auftraggeber',
+        location: 'Ort',
+        planned_at: 'Planung',
+        finished_at: 'Realisierung',
+        program: 'Programm',
+        drafted_by: 'Entwurf + Projektleitung + Fotos',
+        site: 'Inhaltsblock',
+        Content: 'Textinhalt',
+        Media: 'Medien',
+        Category: 'Kategorie',
+        Page: 'Seite',
+        Project: 'Projekt',
+        User: 'Nutzer',
+      },
+    },
   },
   bootstrap(app) {
     console.log(app);
